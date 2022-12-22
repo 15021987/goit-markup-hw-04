@@ -627,12 +627,14 @@ color: #2E2F42;
   icon {fill: currentColor; }
 
 
-  .social {
-    padding-left: 156px;
-    padding-right: 692px;
+   .social {
+    display: flex;
+
+     padding-left: 156px;
  
 
-  }
+
+  } 
   
   .footer-social-text {
     font-family: 'Roboto';
@@ -644,6 +646,7 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
+    padding-bottom: 16px;
 
 
 }
@@ -671,9 +674,8 @@ color: #2E2F42;
 }
 
 
-.conteinerfooter {
+.conteiner-f-icon {
+      margin-left: 120px;
 
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
