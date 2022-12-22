@@ -148,6 +148,14 @@ display: flex;
 } 
 
 
+
+.cont-icon {
+    align-items: center;
+   margin-top: 28px;
+   margin-right: 16px;
+   color: #434455;
+}
+
 /*Hero*/
 
 .hero {
@@ -607,12 +615,17 @@ color: #2E2F42;
     justify-content: center;
     border-radius: 4px;
   }
-  .customers-link:hover,
+  /* .customers-link:hover,
   .customers-link:focus {
     border: 1px solid #2e3cd7;
     border-radius: 4px;
     fill: currentColor;
-  }
+  } */
+
+ .a { color: grey; border: 1px solid grey;}
+  .a:hover, a:focus { color: violet; border: 1px solid violet;}
+  icon {fill: currentColor; }
+
 
   .social {
     padding-left: 156px;
