@@ -420,12 +420,28 @@ color: #2E2F42;
     height: 112px;
     display: inline-block;
     align-items: center;
+
+    background-color: #F4F4FD;
+    border-radius: 4px;
+
+    
+    
+}
+
+.worksss-icon {
+    
+    display: block;
+    margin-left: 102.72px;
+    margin-top: 24px;
+
     fill: #2E2F42;;
     background-color: #F4F4FD;
     border-radius: 4px;
     
     
+    
 }
+
 
 .work-icon:hover {
     border: 0.01px solid #4D5AE5;
@@ -591,9 +607,8 @@ width: 360px;
   }
 
   .customers-list-icon {
-    fill: #8E8F99;
-  }
-
+    fill: currentColor;
+}
 
   .customers-text {
     font-family: 'Roboto';
@@ -609,28 +624,30 @@ color: #2E2F42;
     border: 1px solid #8E8F99;
     height: 100%;
     width: 100%;
-
+color: #8E8F99;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
   }
-  /* .customers-link:hover,
+  .customers-link:hover,
   .customers-link:focus {
-    border: 1px solid #2e3cd7;
-    border-radius: 4px;
-    fill: currentColor;
-  } */
+    border: 1px solid #2E3CD7;
+    color: #2E3CD7;
+  }
 
  .a { color: grey; border: 1px solid grey;}
   .a:hover, a:focus { color: violet; border: 1px solid violet;}
   icon {fill: currentColor; }
 
 
+  
+
+
    .social {
     display: flex;
 
-     padding-left: 156px;
+     padding-left: 120px;
  
 
 
